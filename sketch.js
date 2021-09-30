@@ -36,9 +36,11 @@ function draw() {
   }
   if(keyDown("up")){
     hab.y -=5
+    hab.size = hab.size - 1
   }
   if(keyDown("down")){
     hab.y +=5
+    hab.size = hab.size + 1
   }
 
   push()
